@@ -1,9 +1,11 @@
 // Input
-let providedHeight = prompt("Please enter your height in cm");
+let providedNumber = prompt("Please enter an integer");
 
 // Check userName
-if (providedHeight < 82) {
-  alert("All Aboard");
+if (providedNumber > 0) {
+  alert("Positive");
+} else if (providedNumber < 0) {
+  alert("Negative");
 } else {
-  alert("Too short for the ride");
+  alert("zero");
 }
