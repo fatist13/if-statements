@@ -1,9 +1,9 @@
 // Input
-let userName = prompt("Please enter your name");
+let providedHeight = prompt("Please enter your height in cm");
 
 // Check userName
-if (userName === "Mr. V") {
-  alert("Wow, we have the same name.");
+if (providedHeight < 82) {
+  alert("All Aboard");
 } else {
-  alert("We don’t have the same name.");
+  alert("Too short for the ride");
 }
